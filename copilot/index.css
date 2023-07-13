@@ -1,0 +1,20 @@
+footer {
+    /* fixed at bottom with text color green */
+    /* make text green */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: green;
+    text-align: center;
+    padding: 10px;
+    /* add red shadow */
+    box-shadow: 0px 0px 10px 0px red;
+
+}
+
+/* add on hover css to footer to transform it to grow */
+footer:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
